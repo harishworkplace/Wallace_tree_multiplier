@@ -1,6 +1,6 @@
 # Wallace Tree Multiplier (64-bit)
 
-This repository contains an HDL implementation of a 64-bit Wallace Tree Multiplier designed for efficient high-speed multiplication of two 32-bit inputs. The multiplier uses a combination of full adders (FA) and a carry-lookahead adder (CLA) to reduce partial products, ensuring minimal propagation delay.
+This repository contains an HDL implementation of a 64-bit Wallace Tree Multiplier designed for efficient high-speed multiplication of two 32-bit inputs. The multiplier combines full adders (FA) and a carry-lookahead adder (CLA) to reduce partial products, ensuring minimal propagation delay.
 
 ## Table of Contents
 
@@ -79,5 +79,5 @@ module wallace (
 );
 
 ### Simulation
-The modules are designed for simulation in any Verilog-compatible simulator like ModelSim, Vivado, or Icarus Verilog. You can write a testbench to validate the functionality of the Wallace Tree Multiplier and verify its performance for various test cases, including edge cases such as multiplication by zero or large numbers.
+The modules are designed for simulation in any Verilog-compatible simulator like ModelSim, Vivado, nclaunch, or Icarus Verilog. You can write a testbench to validate the functionality of the Wallace Tree Multiplier and verify its performance for various test cases, including edge cases such as multiplication by zero or large numbers.
 
