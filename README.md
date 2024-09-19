@@ -11,8 +11,6 @@ This repository contains an HDL implementation of a 64-bit Wallace Tree Multipli
   - [CLA (Carry-Lookahead Adder)](#cla-carry-lookahead-adder)
   - [Wallace Tree Multiplier](#wallace-tree-multiplier)
 - [Simulation](#simulation)
-- [Usage](#usage)
-- [Future Improvements](#future-improvements)
 
 ## Overview
 
