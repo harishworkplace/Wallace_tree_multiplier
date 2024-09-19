@@ -50,11 +50,11 @@ module FA (
 The CLA module is a parameterized carry-lookahead adder designed for fast addition with reduced delay by pre-calculating carry signals.
 
 #### Inputs
--`a`, `b`: Two n-bit operands.
--`cin`: Carry-in signal.
+- `a`, `b`: Two n-bit operands.
+- `cin`: Carry-in signal.
 #### Outputs
--`s`: Sum of a and b.
--`cout`: Carry-out from the addition process.
+- `s`: Sum of a and b.
+- `cout`: Carry-out from the addition process.
 
 module cla #(parameter n = 32) (
     input [n-1:0] a, b,
@@ -67,10 +67,10 @@ module cla #(parameter n = 32) (
 The wallace module integrates the partial product generation, full adders, and carry-lookahead adder into a complete Wallace Tree structure for multiplying two 32-bit numbers.
 
 #### Inputs
--`a`: 32-bit multiplicand.
--`b`: 32-bit multiplier.
+- `a`: 32-bit multiplicand.
+- `b`: 32-bit multiplier.
 #### Output
--`out`: 64-bit result of the multiplication.
+- `out`: 64-bit result of the multiplication.
 
 module wallace (
     input [31:0] a,
